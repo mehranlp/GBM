@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 """
-###   THIS VISUALIZATION REPRESTS THE GEOMETRIC BRWONIAN MOTION IN SIMULATING DIFFERENT PATH OF SCENRIOS. [MORE INFORMATION](https://en.wikipedia.org/wiki/Geometric_Brownian_motion)
+###   THIS VISUALIZATION REPRESTS THE GEOMETRIC BRWONIAN MOTION IN SIMULATING DIFFERENT PATH OF SCENARIOS. [MORE INFORMATION](https://en.wikipedia.org/wiki/Geometric_Brownian_motion)
 #####    BY MEHRAN POORMALEK - CODE REPOSITORY ([GITHUB](https://github.com/mehranlp/GBM))
 """
 @st.cache
