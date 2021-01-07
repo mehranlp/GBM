@@ -6,8 +6,9 @@ import plotly.express as px
 
 
 """
-###   THIS VISUALIZATION REPRESTS THE GEOMETRIC BRWONIAN MOTION IN SIMULATING DIFFERENT PATH OF SCENARIOS. [MORE INFORMATION](https://en.wikipedia.org/wiki/Geometric_Brownian_motion)
-#####    BY MEHRAN POORMALEK - CODE REPOSITORY ([GITHUB](https://github.com/mehranlp/GBM))
+###   Predicting the exact behavior of asset classes is virtually impossible, however, we can examine the possible outcomes based on the historical behavior of asset classes to have a better sense of the range of outcomes and managing the risk. [Geometric Brownian Motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion) is the well-known model for the stochastic time-evolution of an asset price. I coded this interactive application of the GBM model with Python and its libraries. The code is available in my [Github](https://github.com/mehranlp/GBM) repository. This application helps to understand the importance of various factors on the GBM model, for instance, by changing the Volatility, the outcome will change drastically. The volatility and any other variable in this model can be dynamic and automatically imported to the model. There are countless books about Geometric Brownian Motion and 
+it's a related process, but I dive into this concept more thoroughly with [Aspects of Brownian Motion by Mansuy, Roger, Yor, Marc](https://www.springer.com/gp/book/9783540223474) and I highly recommend it to anyone interested in stochastic modeling concept.
+
 """
 @st.cache
 def gbm(n_steps=10,
